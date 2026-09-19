@@ -35,10 +35,12 @@
     <div id="posts">Ładowanie…</div>
     <noscript>
       <ul>
-        <li><a href="posts/2026-09-19-mail-z-san-francisco.html">Mail z San Francisco</a> <time>2026-09-19</time></li>
-        <li><a href="posts/2026-09-18-emoji-w-grube-miliony.html">Zamienili emoji w grube miliony</a> <time>2026-09-18</time></li>
-        <li><a href="posts/2026-09-16-zaginal-python.html">Zaginął Python</a> <time>2026-09-16</time></li>
-        <li><a href="posts/2026-09-14-reklamy-vibe-coding.html">Reklamy Vibe Coding</a> <time>2026-09-14</time></li>
+<!-- WPISY-START -->
+        <li><a href="posts/2026-09-19-mail-z-san-francisco.html"><img class="thumb" src="images/2026-09-19-mail-z-san-francisco-1.jpg" alt="" loading="lazy">Mail z San Francisco</a> <time>2026-09-19</time></li>
+        <li><a href="posts/2026-09-18-emoji-w-grube-miliony.html"><img class="thumb" src="images/2026-09-18-emoji-w-grube-miliony.png" alt="" loading="lazy">Zamienili emoji w grube miliony</a> <time>2026-09-18</time></li>
+        <li><a href="posts/2026-09-16-zaginal-python.html"><img class="thumb" src="images/2026-09-16-zaginal-python.png" alt="" loading="lazy">Zaginął Python</a> <time>2026-09-16</time></li>
+        <li><a href="posts/2026-09-14-reklamy-vibe-coding.html"><img class="thumb" src="images/2026-09-14-reklamy-vibe-coding.jpg" alt="" loading="lazy">Reklamy Vibe Coding</a> <time>2026-09-14</time></li>
+        <!-- WPISY-END -->
       </ul>
     </noscript>
   </section>
@@ -56,6 +58,7 @@ fetch('posts/posts.json').then(r => r.json()).then(data => {
   const box = document.getElementById('posts');
   box.innerHTML = data.map(p => `
     <article class="card">
+      ${p.image ? `<a href="${p.url}" tabindex="-1" aria-hidden="true"><img class="thumb" src="${p.image}" alt="" loading="lazy"></a>` : ''}
       <h3><a href="${p.url}">${p.title}</a></h3>
       <p class="meta"><time datetime="${p.date}">${p.date}</time> · ${p.genre} · FB status: ${p.fb_status}</p>
       <p>${p.excerpt}</p>

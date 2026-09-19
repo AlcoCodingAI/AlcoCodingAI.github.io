@@ -11,6 +11,11 @@ a { color: var(--link); }
 .meta { color: var(--muted); font-size: .9rem; }
 .intro { padding: 1rem 0; border-bottom: 1px dashed var(--line); margin-bottom: 1.5rem; }
 article.card { border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.2rem; margin: 1rem 0; }
+article.card img.thumb { width: 100%; height: 220px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); display: block; }
+article.card h3 { margin-bottom: .2rem; }
+noscript li { margin: .8rem 0; list-style: none; }
+noscript li img.thumb { width: 120px; height: 80px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); vertical-align: middle; margin-right: .6rem; }
+noscript ul { padding-left: 0; }
 article.post h1 { line-height: 1.25; }
 article.post .punch { font-weight: 700; }
 .post-body p { margin: 1em 0; }

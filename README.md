@@ -21,12 +21,12 @@ site/
 
 ## Workflow: GitHub → Facebook (docelowo)
 
-1. Piszesz wpis w `.md` (kopiujesz `_szablon.md`).
-2. Kopiujesz `post.html` → `posts/RRRR-MM-DD-slug.html`, wklejasz treść.
-3. Dopisujesz wpis do `posts.json` z `fb_status: draft` + dopisujesz item do `feed.xml`.
-4. Push na `main` → strona żyje na https://alcocodingai.github.io/
-5. Publikujesz ręcznie (na razie) ten sam tekst na https://www.facebook.com/AlcoCoding, potem ustawiasz `fb_status: posted` + doklejasz link.
-6. W przyszłości: akcja bierze nowe `.md` z `main` i sama wysyła na FB (Graph API) — strona zostaje źródłem prawdy.
+1. Wypełnij lokalny formularz `C:\ac\nowy-wpis.html` (nie trafia na Pages).
+2. Pobierz pakiet JSON do `C:\ac\site\inbox\` (obrazki wcześniej wrzuć do `C:\ac\site\images\`).
+3. Uruchom `powershell -ExecutionPolicy Bypass -File C:\ac\nowy-wpis.ps1`.
+4. Skrypt generuje `.md` + `.html`, aktualizuje `posts.json` / `feed.xml` / `index.html` i pyta o zgodę.
+5. Po wpisaniu `T` idzie push na `main` → Pages publikuje automatycznie.
+6. Wpisy z `fb_status: draft` czekają na ręczną publikację na FB; potem formularzowo oznaczasz `posted` + link.
 
 ## Publikacja na GitHub Pages
 
