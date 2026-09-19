@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mail z San Francisco",
+    "date": "2026-09-19",
+    "genre": "komentarz",
+    "excerpt": "»Zmiana spowodowała«. Nie człowiek, nie decyzja. Najmocniejsza Sztuczna Inteligencja — a poległa na polskim VAT-cie.",
+    "url": "posts/2026-09-19-mail-z-san-francisco.html",
+    "md": "posts/2026-09-19-mail-z-san-francisco.md",
+    "fb_status": "posted"
+  },
+  {
+    "title": "Zamienili emoji w grube miliony",
+    "date": "2026-09-18",
+    "genre": "komentarz",
+    "excerpt": "Hugging Face przejęte przez NVIDIĘ za $12,930,300,000 — a pierwsze sześć cyfr to emoji 🤗 w cenie transakcji.",
+    "url": "posts/2026-09-18-emoji-w-grube-miliony.html",
+    "md": "posts/2026-09-18-emoji-w-grube-miliony.md",
+    "fb_status": "posted"
+  },
+  {
+    "title": "Zaginął Python",
+    "date": "2026-09-16",
+    "genre": "osobista historia",
+    "excerpt": "Przez jeden wieczór byłem programistą. Potem program zaginął. Ostatnio widziany 3 lata temu, podejrzani: zależności.",
+    "url": "posts/2026-09-16-zaginal-python.html",
+    "md": "posts/2026-09-16-zaginal-python.md",
+    "fb_status": "posted"
+  },
+  {
+    "title": "Reklamy Vibe Coding",
+    "date": "2026-09-14",
+    "genre": "osobista historia",
+    "excerpt": "Spanikowany człowiek kontra koleś z 835 aplikacjami. Zakładam własne dojo: Prompt-Fu. Jestem AlcoCoder.",
+    "url": "posts/2026-09-14-reklamy-vibe-coding.html",
+    "md": "posts/2026-09-14-reklamy-vibe-coding.md",
+    "fb_status": "posted"
+  }
+]

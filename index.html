@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AlcoCoding — Bad code. Worse prompts. Glorious rollbacks.</title>
+  <meta name="description" content="AlcoCoding — źródło prawdy. Wpisy publikowane najpierw tutaj, potem na Facebooku. Vibe coding, Prompt-Fu, deploye i rollbacki.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="AlcoCoding RSS" href="feed.xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">AlcoCoding</a>
+    <p class="tagline">Bad code. Worse prompts. Glorious rollbacks.</p>
+    <nav>
+      <a href="index.html" aria-current="page">Wpisy</a>
+      <a href="o-mnie.html">O mnie</a>
+      <a href="privacy.html">Prywatność</a>
+      <a href="https://www.facebook.com/AlcoCoding" rel="me noopener">Facebook ↗</a>
+      <a href="feed.xml">RSS</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1>Źródło prawdy</h1>
+    <p>To jest kanoniczna wersja wpisów AlcoCoding. Najpierw publikuję tutaj, na GitHub Pages. Dopiero potem — to samo idzie na Facebooka. Jeśli widzisz różnicę między stroną a FB, wierzymy tej stronie.</p>
+    <p class="meta">Format: jeden wpis = jeden prosty artykuł. Bez trackerów, bez cookies, bez newslettera.</p>
+  </section>
+
+  <section id="lista-wpisow" aria-live="polite">
+    <h2>Wpisy</h2>
+    <div id="posts">Ładowanie…</div>
+    <noscript>
+      <ul>
+        <li><a href="posts/2026-09-19-mail-z-san-francisco.html">Mail z San Francisco</a> <time>2026-09-19</time></li>
+        <li><a href="posts/2026-09-18-emoji-w-grube-miliony.html">Zamienili emoji w grube miliony</a> <time>2026-09-18</time></li>
+        <li><a href="posts/2026-09-16-zaginal-python.html">Zaginął Python</a> <time>2026-09-16</time></li>
+        <li><a href="posts/2026-09-14-reklamy-vibe-coding.html">Reklamy Vibe Coding</a> <time>2026-09-14</time></li>
+      </ul>
+    </noscript>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="rok"></span> AlcoCoding · <a href="privacy.html">Polityka prywatności</a> · Źródło: <a href="https://github.com/AlcoCodingAI/AlcoCodingAI.github.io">GitHub</a></p>
+  </div>
+</footer>
+
+<script>
+fetch('posts/posts.json').then(r => r.json()).then(data => {
+  document.getElementById('rok').textContent = new Date().getFullYear();
+  const box = document.getElementById('posts');
+  box.innerHTML = data.map(p => `
+    <article class="card">
+      <h3><a href="${p.url}">${p.title}</a></h3>
+      <p class="meta"><time datetime="${p.date}">${p.date}</time> · ${p.genre} · FB status: ${p.fb_status}</p>
+      <p>${p.excerpt}</p>
+      <p><a href="${p.url}">Czytaj całość →</a> · <a href="${p.md}">Markdown (źródło)</a></p>
+    </article>`).join('');
+}).catch(() => {
+  document.getElementById('posts').innerHTML = '<p>Nie udało się wczytać listy. Skorzystaj z linków poniżej (noscript).</p>';
+  document.getElementById('rok').textContent = new Date().getFullYear();
+});
+</script>
+</body>
+</html>

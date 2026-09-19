@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>AlcoCoding</title>
+  <link>https://alcocodingai.github.io/</link>
+  <description>Bad code. Worse prompts. Glorious rollbacks. Źródło prawdy — potem Facebook.</description>
+  <language>pl</language>
+  <item>
+    <title>Mail z San Francisco</title>
+    <link>https://alcocodingai.github.io/posts/2026-09-19-mail-z-san-francisco.html</link>
+    <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Najmocniejsza Sztuczna Inteligencja. A poległa na polskim VAT-cie.</description>
+    <enclosure url="https://alcocodingai.github.io/images/2026-09-19-mail-z-san-francisco-1.jpg" type="image/jpeg" />
+  </item>
+  <item>
+    <title>Zaginął Python</title>
+    <link>https://alcocodingai.github.io/posts/2026-09-16-zaginal-python.html</link>
+    <pubDate>Tue, 16 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Przez jeden wieczór byłem programistą. Potem program zaginął. Podejrzani: zależności.</description>
+    <enclosure url="https://alcocodingai.github.io/images/2026-09-16-zaginal-python.png" type="image/png" />
+  </item>
+  <item>
+    <title>Reklamy Vibe Coding</title>
+    <link>https://alcocodingai.github.io/posts/2026-09-14-reklamy-vibe-coding.html</link>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Spanikowany człowiek kontra koleś z 835 aplikacjami. Zakładam własne dojo: Prompt-Fu.</description>
+    <enclosure url="https://alcocodingai.github.io/images/2026-09-14-reklamy-vibe-coding.jpg" type="image/jpeg" />
+  </item>
+  <item>
+    <title>Zamienili emoji w grube miliony</title>
+    <link>https://alcocodingai.github.io/posts/2026-09-18-emoji-w-grube-miliony.html</link>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Hugging Face przejęte przez NVIDIĘ za $12,930,300,000 — a pierwsze sześć cyfr to emoji w cenie transakcji.</description>
+    <enclosure url="https://alcocodingai.github.io/images/2026-09-18-emoji-w-grube-miliony.png" type="image/png" />
+  </item>
+</channel>
+</rss>
