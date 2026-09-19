@@ -1,11 +1,13 @@
 # Tytuł wpisu
 
+> ZASADA: NIGDY em-dash (U+2014). Pauza to zawsze półpauza (U+2013).
+
 - Data: RRRR-MM-DD
 - Gatunek: osobista historia / satyra / komentarz / analiza
 - Slug: rrrr-mm-dd-slug
 - FB status: draft
 
-## Treść kanoniczna (Markdown — to jest źródło prawdy)
+## Treść kanoniczna (Markdown – to jest źródło prawdy)
 
 Pierwszy akapit: konflikt albo paradoks. Bez lania wody.
 

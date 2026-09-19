@@ -6,7 +6,7 @@
 - FB status: posted
 - FB link: https://www.facebook.com/AlcoCoding/posts/pfbid02FouJCwf6n3JeiS5pg386JXNGDFQnq4qKg9vjVXGGE3YocqMYSNSYo4kfXkSWPBXnl
 
-## Treść kanoniczna (źródło prawdy — w razie różnic z FB obowiązuje ten plik)
+## Treść kanoniczna (źródło prawdy – w razie różnic z FB obowiązuje ten plik)
 
 Zawsze chciałem programować. To znaczy: chciałem być tym człowiekiem, który siedzi przy komputerze, patrzy na czarny ekran z zielonym tekstem i wie, co się dzieje.
 Problem polegał na tym, że ja nie wiedziałem.

@@ -6,7 +6,7 @@
 - FB status: posted
 - FB link: https://www.facebook.com/AlcoCoding/posts/pfbid0rHeeDDWTaqJQ6SoxNANEfdAkRs3R19DCEqZ3rJKR9Unk1Yk1wN8MZoSS2pb784del
 
-## Treść kanoniczna (źródło prawdy — w razie różnic z FB obowiązuje ten plik)
+## Treść kanoniczna (źródło prawdy – w razie różnic z FB obowiązuje ten plik)
 
 Widzieliście te reklamy vibe codingu w stylu👇🏻
 – spanikowany człowiek: „Programować trzeba umieć!”

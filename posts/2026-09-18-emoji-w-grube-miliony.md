@@ -7,7 +7,7 @@
 - FB link: https://www.facebook.com/AlcoCoding/posts/pfbid0cpuYYLuefrMBxSx7N4fe98ZTfn9PLZker2PL5iF1c6PC7AZuDChuPPydd67D3xoMl
 - FB foto: https://www.facebook.com/photo?fbid=122103476187476874&set=a.122099636457476874
 
-## Treść kanoniczna (źródło prawdy — w razie różnic z FB obowiązuje ten plik)
+## Treść kanoniczna (źródło prawdy – w razie różnic z FB obowiązuje ten plik)
 
 Zamienili emoji w grube miliony.
 Było sobie kilku ziomeczków. Dokładniej trzech: Clément Delangue, Julien Chaumond i Thomas Wolf. Ale ja też najpierw czytałem tylko nagłówki, więc przez chwilę zakładałem, że to mógł być pojedynczy ziomal z laptopem, hoodie i pomysłem na firmę od AI.

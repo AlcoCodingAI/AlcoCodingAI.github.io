@@ -10,7 +10,7 @@
   - https://www.facebook.com/photo?fbid=122104058355476874&set=pcb.122104058445476874
   - https://www.facebook.com/photo?fbid=122104058403476874&set=pcb.122104058445476874
 
-## Treść kanoniczna (źródło prawdy — w razie różnic z FB obowiązuje ten plik)
+## Treść kanoniczna (źródło prawdy – w razie różnic z FB obowiązuje ten plik)
 
 Dostałem maila z San Francisco.
 Najwyraźniej coś poszło nie tak.
