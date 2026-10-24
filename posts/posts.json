@@ -10,6 +10,36 @@
         "image": null
     },
     {
+        "title": "Kościół Resetu Limitu",
+        "date": "2026-09-26",
+        "genre": "satyra",
+        "excerpt": "Ludzie żyjący według 5-godzinnego kalendarza, resetów limitu i komunikatu You have reached your limit.",
+        "url": "posts/2026-09-26-kosciol-resetu-limitu.html",
+        "md": "posts/2026-09-26-kosciol-resetu-limitu.md",
+        "fb_status": "posted",
+        "image": null
+    },
+    {
+        "title": "Ach, WordPress",
+        "date": "2026-09-23",
+        "genre": "osobista historia",
+        "excerpt": "Pierwsza strona w WordPressie, 750 zł pensji i powrót tego samego uczucia przy pierwszej stronie zrobionej z AI.",
+        "url": "posts/2026-09-23-ach-wordpress.html",
+        "md": "posts/2026-09-23-ach-wordpress.md",
+        "fb_status": "posted",
+        "image": "images/2026-09-23-ach-wordpress.jpg"
+    },
+    {
+        "title": "Kopiuj - wklej",
+        "date": "2026-09-20",
+        "genre": "osobista historia",
+        "excerpt": "Ctrl+C, Ctrl+V jako język komunikacji z AI. Human in the loop? Raczej: Ctrl+C, Ctrl+V in the loop.",
+        "url": "posts/2026-09-20-kopiuj-wklej.html",
+        "md": "posts/2026-09-20-kopiuj-wklej.md",
+        "fb_status": "posted",
+        "image": null
+    },
+    {
         "title": "Mail z San Francisco",
         "date": "2026-09-19",
         "genre": "komentarz",
