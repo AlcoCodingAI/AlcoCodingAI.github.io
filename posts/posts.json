@@ -10,6 +10,36 @@
         "image": null
     },
     {
+        "title": "Ktoś przepisał Adobe na Rusta",
+        "date": "2026-10-21",
+        "genre": "komentarz",
+        "excerpt": "Siedem otwartoźródłowych odpowiedników aplikacji Adobe, Rust, Claude i pytanie: jak długo będę tęsknił za Photoshopem?",
+        "url": "posts/2026-10-21-ktos-przepisal-adobe-na-rusta.html",
+        "md": "posts/2026-10-21-ktos-przepisal-adobe-na-rusta.md",
+        "fb_status": "posted",
+        "image": null
+    },
+    {
+        "title": "Jest taki ziomek, Andrej Karphaty",
+        "date": "2026-10-18",
+        "genre": "komentarz",
+        "excerpt": "Karpathy dzieli użytkowników AI na cztery grupy. A gdzie w tym wszystkim są alcocoderzy?",
+        "url": "posts/2026-10-18-karpathy-i-lejek-ai.html",
+        "md": "posts/2026-10-18-karpathy-i-lejek-ai.md",
+        "fb_status": "posted",
+        "image": null
+    },
+    {
+        "title": "Alco Coderów przybywa",
+        "date": "2026-10-17",
+        "genre": "komentarz",
+        "excerpt": "Alco Coderów przybywa. #vibecoding",
+        "url": "posts/2026-10-17-alco-coderow-przybywa.html",
+        "md": "posts/2026-10-17-alco-coderow-przybywa.md",
+        "fb_status": "posted",
+        "image": null
+    },
+    {
         "title": "Kościół Resetu Limitu",
         "date": "2026-09-26",
         "genre": "satyra",
